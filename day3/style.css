@@ -229,7 +229,10 @@ header {
   transform: scale(0.98);
 }
 
-/* Blog Section */
+
+
+
+
 
 .blog {
     padding: 50px 20px;
@@ -282,7 +285,10 @@ header {
     text-decoration: underline;
 }
 
-/* About Section */
+
+
+
+
 
 .about {
     padding: 50px 20px;
@@ -353,4 +359,75 @@ header {
 
 .contact button:hover {
     background-color: #eb4545;
+}
+
+
+
+
+
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px lightgray;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.login-container p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #eb4545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #eb4545;
+}
+
+.register-text {
+    margin-top: 20px;
+}
+
+.register-text a {
+    color: #eb4545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
 }
