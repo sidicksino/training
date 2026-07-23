@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <img src="/day3/image.png" alt="Spotify Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#boutique">Boutique</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="buttons">
+          <button class="btn">Login</button>
+          <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+      <video class="hero-video" autoplay loop muted playsinline>
+        <source src="sidick.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="boutique-section" id="boutique">
+      <!-- Filter Category Buttons -->
+      <div class="category-filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Watches</button>
+        <button class="filter-btn">T-Shirts</button>
+        <button class="filter-btn">Shoes</button>
+        <button class="filter-btn">Phones</button>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="card-image">
+            <img src="/day3/shoes.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-image">
+            <span class="badge">New</span>
+            <img src="/day3/shoes1.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-image">
+            <img src="/day3/shoes2.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="card-image">
+            <span class="badge">New</span>
+            <img src="/day3/shoes3.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <img src="/day3/shoes4.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <span class="badge">New</span>
+            <img src="/day3/shoes5.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <img src="/day3/shoes6.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="card-image">
+            <span class="badge">New</span>
+            <img src="/day3/shoes7.png" alt="Shoes" />
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Shoes</h3>
+            <p class="product-price">25 000 FCFA</p>
+            <button class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <h2>Latest Blog Posts</h2>
+
+      <div class="blog-container">
+        <div class="blog-card">
+          <img src="/day3/blog.png" alt="Fashion Trends" />
+          <h3>Top Fashion Trends in 2026</h3>
+          <p>
+            Discover the latest fashion styles and accessories that are trending
+            this year.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-card">
+          <img src="/day3/blog.png" alt="Smart Gadgets" />
+          <h3>Best Smart Gadgets to Buy</h3>
+          <p>
+            Explore the newest smart devices that can improve your daily life.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="blog-card">
+          <img src="/day3/blog.png" alt="Shopping Tips" />
+          <h3>Online Shopping Tips</h3>
+          <p>
+            Learn how to shop safely online and find the best deals on
+            yourfavorite products.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>
+        Welcome to My Shop! We are dedicated to providing high-quality products
+        at affordable prices. Our goal is to make online shopping easy,
+        enjoyable, and accessible for everyone.
+      </p>
+
+      <p>
+        We offer a variety of products, including clothing, watches, shoes, and
+        electronic devices. Customer satisfaction is our top priority.
+      </p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+
+      <p>Have any questions? Feel free to send us a message.</p>
+
+      <form>
+        <input type="text" placeholder="Your Name" required />
+
+        <input type="email" placeholder="Your Email" required />
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </body>
+</html>
